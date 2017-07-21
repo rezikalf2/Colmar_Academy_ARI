@@ -1,0 +1,171 @@
+
+html{
+  font-size: 16px;
+}
+
+/* Preparation border*/
+.common_container, .logo, .logo_img, img, p, h1, h2, h3,h4,h5, table, div {
+  line-height: 2rem;
+  border: 1px solid blue;
+}
+h2 {
+  border: 1px solid green;
+}
+
+table td {
+    border: 1px solid blue;
+}
+
+/* end Preparation*/
+
+.common_container{
+  display: flex;
+  width:1200px;
+
+}
+
+
+/*header*/
+header{
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+}
+
+.logo {
+display: flex;
+margin-left: 1.5rem;
+}
+
+.gap {
+    width: 16px;
+    background-color:#27FFE4;
+    white-space:nowrap
+}
+
+tr {
+  height: 4rem;
+}
+
+/*banner*/
+
+.banner{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #E5E5E5;
+
+}
+
+.banner_quote{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.5rem;
+  width: 27rem;
+}
+
+.banner img{
+  width: 60%;
+  height: 60%;
+  margin-left: 1.5rem;
+}
+
+.button{
+  align-self: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  min-width: 60%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/*information*/
+.info_quote{
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  width: 60%;
+  }
+
+.info_quote img{
+  margin-bottom: 2rem;
+  width: 100%;
+  }
+
+.info_sections{
+  width: 27rem;
+
+  }
+
+.section{
+  display: flex;
+  margin-left: 1rem;
+
+}
+
+.info_data{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.info_data h4, .info_data h5{
+  margin-bottom: 0.5rem;
+
+}
+
+.section img{
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 35%;
+  height: 35%;
+}
+
+/*courses*/
+.start{
+  text-align: center;
+}
+
+.learning{
+    background-color: #E5E5E5;
+}
+.courses{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course{
+  width: 25%;
+  margin-left: 1rem;
+}
+
+.course img{
+  max-width: 100%;
+}
+
+
+/*thesis*/
+.thesis{
+  display: inline-flex;
+  }
+
+.thesis_quote{
+  width: 60%;
+  margin-left: 1.5rem;
+}
+
+
+.thesis_quote video{
+  width: 100%;
+}
+
+/*footer*/
+footer{
+  display: flex;
+  margin-left: 1.5rem;
+  justify-content: space-between;
+}
